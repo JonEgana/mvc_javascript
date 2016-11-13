@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  		<meta charset="UTF-8">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>First script</title>
+	</head>
+	<body>
+		  <!-- ========= -->
+		  <!-- Your HTML -->
+		  <!-- ========= -->
+		 <div id="container">Loading...</div><!-- entire js app will be loaded here -->
+
+		  <!-- ========= -->
+		  <!-- Libraries -->
+		  <!-- ========= -->
+		<script type="text/javascript" src="../lib/jquery-3.1.1.min.js"></script>
+		<script type="text/javascript" src="../lib/underscore.js"></script>
+		<script type="text/javascript" src="../lib/backbone.js"></script>
+		<script type="text/javascript" src="../lib/backbone.localStorage-min.js"></script>
+	
+		  <!-- =============== -->
+		  <!-- Javascript code -->
+		  <!-- =============== -->
+		  <script type="text/javascript">
+		    // Example of Backbone.view
+		    var AppView = Backbone.View.extend({
+			////Every view has a element associate in with HTML
+			el : '#container',
+			//When this view it's instantiated, initialize function will be called.
+			initialize: function(){
+				this.render();
+			},
+
+			render: function(){
+			//$el - it's a cached jQuery object (el)
+			  this.$el.html("Hello World");
+		         //In this case,it's used to push content
+			}
+		     });
+			var appView = new AppView();
+		  </script>
+	</body>
+</html>
