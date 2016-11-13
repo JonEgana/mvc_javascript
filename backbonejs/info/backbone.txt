@@ -1,0 +1,23 @@
+backbone.js
+
+DEFINICION/DEFINITION/DEFINIZIOA
+ES= Una libreria javascript para programacion del lado del cliente que nos ofrece diferentes ventajas y utilidades en la programacion, atendiendo a patrones, de una manera flexibe.
+
+EN = This is a javascript library for client-side programming which offers different advantages and profits in programming, based on patterns, a flexibe way.
+
+EU= Bezeroaren alde programatzeko erabiltzen den javascript liburutegi bat. Honek, abantail desberdinak eskeintzen digute, baita erabilgarritasuna programazioan, patroiei arreta jarriz, era malgu batean.
+
+NO USAR EN../DON'T USE ON../NON EZ ERABILI
+ES= No lo uses para asignar un comportamiento a un botón! o en cualquier página donde piensas tener pocos elementos con interacción con el usuario y donde las funciones manejadoras sean bastante sencillas.Si tu código es muy pequeño y lo puedes tener en unas decenas de líneas de código, no se recomendaría usar Backbone.
+
+EN = Don't use if you only want to assign a behavior to a button or whatever web page that it have few elements for user interaction and where functions are so simple. Don't recommend using if your code is small.
+
+EU = Ez erabili botoi bateri portaera bat esleitzeko edota edozein orrialde non elementu gutxi dauden erabiltzailekin iterakzioa egiten dutenak, eta erabiltzen diren funtzioak oso sinpleak direnean. Zure kodea txikia bada, ez da gomendagarria Backbone erabiltzea.
+
+
+USAR EN ../USE ON../NON ERABILI
+ES = Usa BackboneJS en una aplicación web en la que ya se entiende que vas a tener bastante lógica de negocio, bastante interacción, bastantes métodos y eventos trabajando.
+
+EN = Use BackboneJS in web application which you will have enough businnes logic, enough interaction, enough working method and events.
+
+EU = Erabili web aplikazioa negozio logika handia dunean, interakzio nahikoa dagoenean eta metodo eta ebento nahikoak lanean daudenean.
